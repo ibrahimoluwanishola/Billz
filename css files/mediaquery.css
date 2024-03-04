@@ -1,0 +1,272 @@
+/* for mobile screens */
+@media only screen and (max-width:600px){
+ .navbar{
+    padding-left: 5%  !important;
+    padding-right: 5% !important;
+ }
+ .navlinks{
+    display: none !important;
+ }
+ .navbtn{
+    display: none;
+ }
+
+  /* herosection */
+  .herosection{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2em;
+    padding:5% !important;
+    width: 100%;
+    z-index: 50;
+    background-color: #FC6B02;
+    margin-bottom: 10% !important;
+    
+  }
+  .herotext{
+    display: flex;
+    padding-top: 10% !important;
+    flex-direction: column;
+    width: 100% !important;
+    color: white;
+  }
+  .herotext >h1{
+    font-family: Poppins;
+    font-size: 25px !important;
+    font-weight: 800;
+    line-height: 30px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 100% !important;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-overflow:clip;
+  }
+  .herotext >h2{
+      font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow:clip;
+  
+  }
+  .mark{
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    padding-left: 2%;
+    gap: 1em;
+  }
+  .mark >h3{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow:clip;
+  
+  }
+  .applinks{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding-top:5%;
+  }
+  .applinks> a >svg{
+    display: flex;
+    width:100%;
+    background-color: #57200A;
+    padding: 4%;
+    border-radius: 8px;
+  }
+  .mark >h4{
+    max-width: 100%  !important;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow:clip;
+  }
+  .mark>svg{
+    max-width: 100% !important;
+  }
+  .fast{
+    align-items: center;
+    display: flex;
+    gap: 5%;
+    background-color: white;
+    max-width: 100% !important;
+    max-height:35px;
+    border-radius: 16.3px;
+    padding: 2%;
+    color: black;
+  }
+  .fst{
+    display: flex;
+    width: 40px !important;
+    height: 13.34px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 30px;
+     background-color: black;
+     color: white;
+     padding: 3%;
+     justify-content: center;
+     align-items: center;
+  }
+  .heroimg {
+    width: 100% !important;
+  }
+  .heroimg >svg{
+   max-width:100%;
+  }
+  
+  
+}
+
+/* for tablet screens */
+@media only screen and (min-width:601px) and (max-width:1024px){
+    .navbar{
+        padding-left: 5%  !important;
+        padding-right: 5% !important;
+     }
+     .navlinks{
+        display: none !important;
+     }
+     .navbtn{
+        display: none;
+     }
+        /* herosection */
+          /* herosection */
+  .herosection{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2em;
+    padding:5% !important;
+    width: 100%;
+    z-index: 50;
+    background-color: #FC6B02;
+    margin-bottom: 10% !important;
+    
+  }
+  .herotext{
+    display: flex;
+    padding-top: 10% !important;
+    flex-direction: column;
+    width: 100% !important;
+    color: white;
+  }
+  .herotext >h1{
+    font-family: Poppins;
+    font-size: 35px !important;
+    font-weight: 800;
+    line-height: 30px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 100% !important;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-overflow:clip;
+  }
+  .herotext >h2{
+      font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow:clip;
+  
+  }
+  .mark{
+    display: flex;
+    align-items: center;
+    padding-top: 3%;
+    padding-left: 2%;
+    gap: 1em;
+  }
+  .mark >h3{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow:clip;
+  
+  }
+  .applinks{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding-top:5%;
+  }
+  .applinks> a >svg{
+    display: flex;
+    width:100%;
+    background-color: #57200A;
+    padding: 4%;
+    border-radius: 8px;
+  }
+  .mark >h4{
+    max-width: 100%  !important;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow:clip;
+  }
+  .mark>svg{
+    max-width: 100% !important;
+  }
+  .fast{
+    align-items: center;
+    display: flex;
+    gap: 5%;
+    background-color: white;
+    max-width: 55% !important;
+    max-height:35px;
+    border-radius: 16.3px;
+    padding: 2%;
+    color: black;
+  }
+  .fst{
+    display: flex;
+    width: 40px !important;
+    height: 13.34px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 30px;
+     background-color: black;
+     color: white;
+     padding: 3%;
+     justify-content: center;
+     align-items: center;
+  }
+  .heroimg {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  .heroimg >svg{
+   max-width:100%;
+  }
+  
+    }

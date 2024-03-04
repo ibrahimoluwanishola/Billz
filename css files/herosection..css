@@ -1,0 +1,115 @@
+.herosection{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding: 7%;
+  width: 100%;
+  z-index: 50;
+  background-color: #FC6B02;
+  
+}
+.herotext{
+  display: flex;
+  padding-top: 5%;
+  flex-direction: column;
+  width: 50%;
+  color: white;
+}
+.herotext >h1{
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 60%;
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-overflow:clip;
+}
+.herotext >h2{
+    font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-overflow:clip;
+
+}
+.mark{
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+  padding-left: 2%;
+  gap: 1em;
+}
+.mark >h3{
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-overflow:clip;
+
+}
+.applinks{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding-top:5%;
+}
+.applinks> a >svg{
+  display: flex;
+  width:100%;
+  background-color: #57200A;
+  padding: 4%;
+  border-radius: 8px;
+}
+.mark >h4{
+  max-width: 70%;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-overflow:clip;
+}
+.fast{
+  align-items: center;
+  display: flex;
+  gap: 5%;
+  background-color: white;
+  max-width: 55%;
+  max-height:35px;
+  border-radius: 16.3px;
+  padding: 2%;
+  color: black;
+}
+.fst{
+  display: flex;
+  width: 33.34px;
+  height: 13.34px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 30px;
+   background-color: black;
+   color: white;
+   padding: 3%;
+   justify-content: center;
+   align-items: center;
+}
+.heroimg {
+  width: 50%;
+}
+.heroimg >svg{
+ max-width:100%;
+}
+
